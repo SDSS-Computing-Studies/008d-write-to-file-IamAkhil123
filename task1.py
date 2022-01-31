@@ -1,5 +1,13 @@
 #!python3
 
+x = input("What is your name?")
+y = input("What is your email?")
+f = open("task1.txt", "a")
+c = x + "\n"
+f.write(c)
+f.write(y)
+f.close()
+
 '''
 Have the user enter in their name and email address.
 Have the program create a file called 'task1.txt'

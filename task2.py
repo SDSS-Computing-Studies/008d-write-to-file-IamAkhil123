@@ -1,4 +1,13 @@
 #!python3 
+
+x = input("enter a number")
+while x == []:
+ x = input("enter a number")
+ y = list.append(x)
+ f = open("task2.txt", "a")
+ f.write(y)
+ f.close()
+
 """
 Tell the user that they will be entering in a list of integers.
 Keep reading integers until they enter a blank line (press Enter)
